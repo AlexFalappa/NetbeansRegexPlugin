@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
+  
   <groupId>de.dev.eth0.netbeans.plugins</groupId>
   <artifactId>de.dev.eth0.netbeans.plugins.regex</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>nbm</packaging>
 
-  <name>Regex Tester</name>
-  <description>Module for Netbeans to test regular expressions.</description>
+  <name>Netbeans Regex Tester</name>
+  <description>An all-in-one Regex Evaluator using the Java standard API (java.util.regex)</description>
 
   <scm>
     <connection>scm:git:https://github.com/deveth0/NetbeansRegexPlugin.git</connection>
@@ -52,7 +52,6 @@
   </build>
 
   <dependencies>
-
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

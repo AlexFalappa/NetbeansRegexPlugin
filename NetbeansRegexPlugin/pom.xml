@@ -4,7 +4,7 @@
   
   <groupId>de.dev.eth0.netbeans.plugins</groupId>
   <artifactId>de.dev.eth0.netbeans.plugins.regex</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>nbm</packaging>
 
   <name>Netbeans Regex Tester</name>

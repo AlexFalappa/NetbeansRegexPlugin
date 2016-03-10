@@ -29,11 +29,12 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>nbm-maven-plugin</artifactId>
-        <version>3.14</version>
+        <version>4.1</version>
         <extensions>true</extensions>
         <configuration>
+          <author>dev-eth0.de</author>
           <licenseName>Apache License, Version 2.0</licenseName>
-          <licenseFile>../../../LICENSE</licenseFile>
+          <licenseFile>../LICENSE</licenseFile>
           <homePageUrl>https://github.com/deveth0/NetbeansRegexPlugin</homePageUrl>
           <useOSGiDependencies>false</useOSGiDependencies>
         </configuration>

@@ -65,8 +65,14 @@ public class RegexEvaluator {
         matches = matcher.matches();
         matcher.reset();
         if (isNotEmpty(replacement)) {
-          replaceFirst = matcher.replaceFirst(replacement);
-          replaceAll = matcher.replaceAll(replacement);
+          try {
+            replaceFirst = matcher.replaceFirst(replacement);
+            replaceAll = matcher.replaceAll(replacement);
+          }
+          catch (IllegalArgumentException iae) {
+            this.valid = false;
+            this.invalidReason = iae.getMessage();
+          }
         }
         lookingAt = matcher.lookingAt();
         matcher.reset();

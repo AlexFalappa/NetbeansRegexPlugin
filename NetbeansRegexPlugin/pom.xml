@@ -4,7 +4,7 @@
   
   <groupId>de.dev.eth0.netbeans.plugins</groupId>
   <artifactId>de.dev.eth0.netbeans.plugins.regex</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3-SNAPSHOT</version>
   <packaging>nbm</packaging>
 
   <name>Netbeans Regex Tester</name>
@@ -14,7 +14,7 @@
     <connection>scm:git:https://github.com/deveth0/NetbeansRegexPlugin.git</connection>
     <developerConnection>scm:git:https://github.com/deveth0/NetbeansRegexPlugin.git</developerConnection>
     <url>https://github.com/deveth0/NetbeansRegexPlugin.git</url>
-    <tag>de.dev.eth0.netbeans.plugins.regex-1.0.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
